@@ -24,7 +24,7 @@ header .logo img {
 .menu {
     display: flex;
     /* margin-right: 40px; */
-    margin-left: 150px;
+    margin-left: 200px;
     
     
 }
@@ -219,6 +219,7 @@ header .logo img {
     color: #0C2C43;
 }
 
+
 #contact h1 {
     text-align: center;
     margin-top: 80px;
@@ -230,6 +231,7 @@ header .logo img {
 #contact .left {
     height: 500px;
     width: 25%;
+    margin-right: 250px;
 }
 
 
@@ -291,6 +293,10 @@ form {
 #contact .apl img {
     width: 40%;
     margin-left: 35px; 
+}
+
+#contact .right {
+    margin-left: 100px;
 }
 
 
@@ -691,6 +697,13 @@ header .menu.responsive li {
 
     footer {
         bottom: 0;
+        flex-direction: column;
+        height: 120px;
+    }
+
+    footer .left p {
+        font-size: 20px;
+        margin-right: 40px;
     }
 
         
