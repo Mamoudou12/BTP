@@ -111,7 +111,7 @@ header .logo img {
     height: 450px;
     border: 1px solid #8C9CA4;
     width: 25%;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 60px;
     
 }
@@ -194,7 +194,7 @@ header .logo img {
     border: 1px solid #8C9CA4;
     width: 30%;
     margin-top: 80px;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -500,6 +500,10 @@ footer .right {
         margin-top: 50px;
         width: 50%;
         margin-left: 60px;
+    }
+
+    #contact form {
+        width: 300px;
     }
     
     .contact input {
